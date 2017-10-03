@@ -1,0 +1,23 @@
+{
+    "name": "microclock",
+    "version": "1.0.0",
+    "description": "Light date library optimized to AWS Lambda Timezones",
+    "main": "lib/microclock.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "date",
+        "lambda",
+        "serverless"
+    ],
+    "author": "Matheus Fidelis",
+    "license": "MIT",
+    "dependencies": {
+        "dateformat": "^3.0.2"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.0"
+    }
+}
